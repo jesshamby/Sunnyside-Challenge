@@ -1,7 +1,10 @@
 * {
 	box-sizing: border-box;
-	font-family: "Fraunces";
 	font-size: 18px;
+}
+
+nav a, h1, h2, h3 {
+	font-family: "Fraunces";
 }
 
 /* nav */
@@ -50,6 +53,11 @@ h1 {
 }
 
 /* Grid */
+
+body {
+	margin: 0;
+}
+
 .grid {
 	display: flex;
 	flex-wrap: wrap;
@@ -57,4 +65,27 @@ h1 {
 
 .grid div, .grid img {
 	width: 50%;
+}
+
+.grid div {
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+	color: hsl(212, 27%, 19%);
+}
+
+.grid div p {
+	font-family: "Barlow", sans-serif;
+	font-weight: bold;
+	color: hsl(232, 10%, 55%);
+}
+
+.grid a {
+	color: hsl(212, 27%, 19%);
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
 }
