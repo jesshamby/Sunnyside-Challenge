@@ -233,11 +233,56 @@ h5 {
 	margin: 40px 0;
 }
 
+/* Gallery */
+
+.gallery {
+	display: flex;
+}
+
+.gallery img {
+	width: 25%;
+}
+
+/* Footer */
+
+footer {
+	background-color: hsl(168, 45.8%, 69.6%);
+	text-align: center;
+	padding: 60px 0;
+}
+
+footer a, h4 {
+	color: hsl(167, 40%, 24%);
+}
+
+h4 {
+	margin-bottom: 40px;
+	font-weight: 900;
+	font-size: 40px;
+}
+
+.text-links {
+	margin-bottom: 80px;
+}
+
+.text-links a {
+	font-family: "Barlow";
+	margin: 0 25px;
+	opacity: 0.7;
+}
+
+.icon-links a {
+	margin: 0 15px;
+}
+
 
 /* Hover features */
 button:hover {
-	color: hsl(0, 0%, 100%);
 	background-color: hsl(0, 0%, 100%, 0.4);
+}
+
+button:hover, footer a:hover {
+	color: hsl(0, 0%, 100%);
 }
 
 button:hover, a:hover {
