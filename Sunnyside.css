@@ -3,7 +3,7 @@
 	font-size: 18px;
 }
 
-a, h1, h2, h3, button {
+a, h1, h2, h3, h4, h5, button {
 	font-family: "Fraunces";
 }
 
@@ -28,14 +28,14 @@ nav a {
 	margin-right: 3vw;
 }
 
-h3 {
+h4 {
 	font-family: "Barlow", sans-serif;
 	margin: 0;
 	font-size: 30px;
 	font-weight: bold;
 }
 
-h3, nav a, h1 {
+h4, nav a, h1 {
 	color: hsl(0, 0%, 100%);
 }
 
@@ -103,9 +103,12 @@ body {
 
 .grid div p {
 	font-family: "Barlow", sans-serif;
-	color: hsl(232, 10%, 55%);
 	line-height: 30px;
 	margin: 0 0 40px 0;
+}
+
+.grid-text p, .audience-text p {
+	color: hsl(232, 10%, 55%);
 }
 
 .grid a {
@@ -137,6 +140,46 @@ body {
 h2 {
 	font-size: 40px;
 	font-weight: 900;
+}
+
+.graphic-design, .photography {
+	position: relative;
+}
+
+.graphic-design img, .photography img {
+	width: 100%;
+}
+
+.graphic-design-text, .photography-text {
+	position: absolute;
+	left: 25%;
+	top: 60%;
+	text-align: center;
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: 900;
+}
+
+.graphic-design p, .photography p {
+	font-size: 16px;
+}
+
+.graphic-design h3 {
+	color: hsl(167, 40%, 24%);
+}
+
+.graphic-design p {
+	color: hsl(167, 40%, 24%, 0.6);
+}
+
+.photography h3 {
+	color: hsl(198, 62%, 26%);
+}
+
+.photography p {
+	color: hsl(198, 62%, 26%, 0.9);
 }
 
 /* Hover features */
