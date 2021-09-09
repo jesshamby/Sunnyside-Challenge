@@ -109,6 +109,27 @@ body {
 .grid a {
 	color: hsl(212, 27%, 19%);
 	font-weight: 900;
+	position: relative;
+	left: 6px;
+}
+
+.grid a::before {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+	left: -6px;
+        width: 145px;
+        height: 10px;
+        z-index: -1;
+	border-radius: 2000px;
+}
+
+.brand-text a::before{
+	background-color: hsl(51, 100%, 49%, 0.4);
+}
+
+.audience-text a::before{
+	background-color: hsl(7, 99%, 70%, 0.4);
 }
 
 h2 {
@@ -120,5 +141,16 @@ h2 {
 button:hover {
 	color: hsl(0, 0%, 100%);
 	background-color: hsl(0, 0%, 100%, 0.4);
+}
+
+button:hover, a:hover {
 	cursor: pointer;
+}
+
+.brand-text a:hover::before {
+	background-color: hsl(51, 100%, 49%);
+}
+
+.audience-text a:hover::before {
+	background-color: hsl(7, 99%, 70%);
 }
