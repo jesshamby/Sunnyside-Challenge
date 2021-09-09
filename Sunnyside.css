@@ -94,16 +94,18 @@ body {
 }
 
 .brand-text {
-	padding: 10% 5% 10% 10%;
+	padding: 10% 9% 10% 9%;
 }
 
 .audience-text {
-	padding: 10% 10% 10% 5%;
+	padding: 10% 9% 10% 9%;
 }
 
 .grid div p {
 	font-family: "Barlow", sans-serif;
 	color: hsl(232, 10%, 55%);
+	line-height: 30px;
+	margin: 0 0 40px 0;
 }
 
 .grid a {
