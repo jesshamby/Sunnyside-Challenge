@@ -36,7 +36,7 @@ h3 {
 	font-weight: bold;
 }
 
-h3, nav div a, h1 {
+h3, nav a, h1 {
 	color: hsl(0, 0%, 100%);
 }
 
@@ -104,4 +104,11 @@ body {
 h2 {
 	font-size: 40px;
 	font-weight: 900;
+}
+
+/* Hover features */
+button:hover {
+	color: hsl(0, 0%, 100%);
+	background-color: hsl(0, 0%, 100%, 0.4);
+	cursor: pointer;
 }
